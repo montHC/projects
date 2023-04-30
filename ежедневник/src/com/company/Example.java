@@ -30,14 +30,11 @@ public class Example extends JFrame
         panel.add(comboBox);
         panel.add(textArea);
         panel.add(Button);
-
-
-        //Добавим панель в окно
+        
         window.getContentPane().add(panel);
 
         window.pack();
 
-        //Разместим программу по центру
         window.setLocationRelativeTo(null);
         window.setVisible(true);
         comboBox.addActionListener(new ActionListener(){
