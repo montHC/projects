@@ -46,14 +46,14 @@ public class Example extends JFrame
             public void actionPerformed(ActionEvent e) {
 int num=comboBox.getSelectedIndex();
 switch (num){
-    case 0: textArea.setText("сдеалть матан");break;
-    case 1: textArea.setText("Купить подарок\n "+
-    "Сделать ООП");break;
-    case 2: textArea.setText("");break;
-    case 3: textArea.setText("сделать дизайн");break;
-    case 4: textArea.setText("почитать книгу");break;
-    case 5: textArea.setText("купить хлеб");break;
-    case 6: textArea.setText("нарисовать портрет");break;
+    case 0: textArea.setText("Запишите дело");break;
+    case 1: textArea.setText("Запишите дело\n "+
+    "Запишите дело");break;
+    case 2: textArea.setText("Запишите дело");break;
+    case 3: textArea.setText("Запишите дело");break;
+    case 4: textArea.setText("Запишите дело");break;
+    case 5: textArea.setText("Запишите дело");break;
+    case 6: textArea.setText("Запишите дело");break;
 
             }}
         });
